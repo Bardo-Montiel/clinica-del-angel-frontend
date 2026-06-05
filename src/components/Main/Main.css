@@ -1,0 +1,424 @@
+.main {
+  background-color: #faebd3;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+.main__lobby-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  background-image:
+    radial-gradient(1400px 600px, transparent, #000),
+    url("../../../images/lobby.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main__section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 1200px;
+}
+
+.main__slogan {
+  font-family: "Lora", Arial, sans-serif;
+  color: #f0e9df;
+  font-size: 67px;
+  width: 800px;
+  margin: 0;
+  animation: entrarDesdeDerecha 1s ease-out forwards;
+}
+
+.main__section-content span {
+  color: #0286a0;
+}
+
+.main__vision {
+  font-size: 25px;
+  color: #f0e9df;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-style: oblique;
+  line-height: normal;
+  animation: entrarDesdeDerecha 1s ease-out forwards;
+}
+
+.main__button-cite {
+  height: 50px;
+  width: 200px;
+  margin: 0;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #f0e9df;
+  background-color: #005f73;
+  border-radius: 30px;
+  border-style: none;
+  opacity: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.main__button-cite:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+}
+
+.main__services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #273e68;
+  margin-bottom: 40px;
+}
+
+.main__commentary {
+  font-weight: bolder;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #005f73;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.main__subtitle {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 50px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.main__paragraph {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  width: 700px;
+  text-align: center;
+  color: #273e68;
+}
+
+.main__index-service {
+  width: 1250px;
+  height: auto;
+  display: grid;
+  grid-template-areas:
+    "trauma heridas fisioterapia"
+    "cirugia pediatria otorrino";
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.main__content-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 35px;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  background-color: #0294b1;
+}
+
+.main__disposition {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #005f73;
+  color: #f0e9df;
+}
+
+.main__disposition-container {
+  display: flex;
+  flex-direction: row;
+  width: 1250px;
+  justify-self: center;
+  margin: 0;
+}
+
+.main__dispoition-image {
+  height: 620px;
+  width: 570px;
+  border-radius: 30px;
+  filter: grayscale();
+  border: 5px solid #faebd3;
+  box-shadow: 0px 15px 70px 0;
+}
+
+.main__disposition-information {
+  margin-left: 70px;
+}
+
+.main__disposition-comentary {
+  font-weight: bolder;
+  font-size: 17px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.main__disposition-subtitle {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 50px;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.main__disposition-paragraph {
+  font-size: 20px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.main__check-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main__content-check-icon {
+  margin: 0;
+}
+
+.main__list-package {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.main__list-title {
+  margin: 0;
+}
+
+.main__list-paragraph {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+@keyframes entrarDesdeDerecha {
+  0% {
+    transform: translateX(20vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .main__section-content {
+    width: 900px;
+  }
+  .main__index-service {
+    width: 900px;
+    grid-template-areas:
+      "trauma heridas "
+      "fisioterapia cirugia"
+      "pediatria otorrino";
+    row-gap: 30px;
+  }
+  .main__disposition {
+    height: 600px;
+  }
+
+  .main__disposition-container {
+    width: 900px;
+  }
+  .main__dispoition-image {
+    height: 420px;
+    width: 370px;
+    border-radius: 30px;
+  }
+  .main__disposition-information {
+    margin-left: 50px;
+  }
+
+  .main__disposition-comentary {
+    margin-bottom: 0px;
+  }
+  .main__disposition-subtitle {
+    font-size: 35px;
+  }
+  .main__disposition-paragraph {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .main__section-content {
+    align-items: center;
+    width: 100%;
+  }
+  .main__lobby-section {
+    height: 400px;
+  }
+  .main__section-content {
+    width: 500px;
+  }
+  .main__slogan {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .main__vision {
+    font-size: 18px;
+    width: 100%;
+  }
+  .main__button-cite {
+    height: 45px;
+    width: 195px;
+    font-size: 18px;
+  }
+  .main__commentary {
+    font-size: 13px;
+    margin-bottom: 7px;
+    margin-top: 25px;
+  }
+  .main__subtitle {
+    font-size: 30px;
+    margin-top: 4px;
+  }
+  .main__paragraph {
+    font-size: 16px;
+    width: 500px;
+  }
+  .main__index-service {
+    width: 500px;
+    grid-template-areas:
+      "trauma"
+      "heridas"
+      "fisioterapia"
+      "cirugia"
+      "pediatria"
+      "otorrino";
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .main__disposition {
+    height: auto;
+    flex-direction: column;
+  }
+  .main__disposition-container {
+    flex-direction: column-reverse;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .main__disposition-information {
+    margin-left: 0;
+  }
+  .main__disposition-comentary {
+    font-size: 15px;
+    letter-spacing: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .main__disposition-subtitle {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .main__disposition-paragraph {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .main__dispoition-image {
+    height: 320px;
+    width: 270px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 40px 0;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .main__lobby-section {
+    height: 300px;
+  }
+  .main__section-content {
+    width: 260px;
+  }
+  .main__slogan {
+    font-size: 25px;
+  }
+  .main__vision {
+    font-size: 14px;
+  }
+  .main__button-cite {
+    height: 35px;
+    width: 160px;
+    font-size: 15px;
+  }
+  .main__commentary {
+    font-size: 7px;
+    margin-bottom: 5px;
+    margin-top: 17px;
+  }
+  .main__subtitle {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+  .main__paragraph {
+    font-size: 13px;
+    width: 260px;
+  }
+
+  .main__index-service {
+    width: 260px;
+  }
+  .main__disposition-container {
+    width: 260px;
+  }
+  .main__dispoition-image {
+    height: 270px;
+    width: 220px;
+    margin-bottom: 30px;
+  }
+  .main__disposition-comentary {
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+  .main__disposition-subtitle {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+  .main__disposition-paragraph {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .main__check-list {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .main__content-check-icon {
+    width: 30px;
+    height: 30px;
+  }
+}

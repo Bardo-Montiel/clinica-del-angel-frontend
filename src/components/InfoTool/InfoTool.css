@@ -1,0 +1,85 @@
+.infoTool {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoTool__alert {
+  width: 400px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoTool__check {
+  color: #008000;
+  margin-top: 40px;
+}
+
+.infoTool__reject {
+  color: #ad1e1e;
+  margin-top: 40px;
+}
+
+.infoTool__text {
+  color: #000;
+  font-family: Lora;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.infoTool__button {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0;
+  color: aliceblue;
+  background-color: #0286a0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.infoTool__button:hover {
+  background-color: #273e68;
+}
+
+.infoTool__button:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 510px) {
+  .infoTool__check {
+    margin-top: 20px;
+  }
+
+  .infoTool__reject {
+    margin-top: 20px;
+  }
+
+  .infoTool__text {
+    font-size: 20px;
+    width: 200px;
+  }
+  .infoTool__button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .infoTool__alert {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+  }
+}

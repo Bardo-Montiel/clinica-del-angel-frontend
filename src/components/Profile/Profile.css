@@ -1,0 +1,232 @@
+.profile {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #005f73;
+  display: flex;
+  justify-content: center;
+  font-family: "Lora", Arial, sans-serif;
+  color: #faebd3;
+}
+
+.profile__content {
+  background-color: transparent;
+  width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__name {
+  font-size: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+.profile__name span {
+  font-style: normal;
+}
+
+.profile__get-appointment {
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.profile__paragraph {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.profile__appointment-button {
+  height: 50px;
+  width: 200px;
+  margin: 0;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #f0e9df;
+  background-color: #0294b1;
+  border-radius: 30px;
+  border-style: none;
+  opacity: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile__appointment-button:hover {
+  opacity: 100%;
+  transform: scale(1.15);
+}
+
+.profile__text {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile__appointment {
+  margin-top: 15px;
+  height: 500px;
+  width: 1100px;
+  background-color: #042b33;
+  align-self: center;
+  overflow: auto;
+}
+
+.profile__appointment::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.profile__appointment::-webkit-scrollbar-track {
+  background: #042b33;
+  border-radius: 10px;
+}
+
+.profile__appointment::-webkit-scrollbar-thumb {
+  background-color: #0294b1;
+  border-radius: 10px;
+}
+
+.profile__appointment::-webkit-scrollbar-thumb:hover {
+  background-color: #06829b;
+}
+
+.profile__card {
+  background-color: #faebd3;
+  min-height: 120px;
+  width: 100%;
+  border-radius: 20px;
+  color: #273e68;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 18px;
+  align-items: center;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.profile__card p {
+  margin: 0 0 0 70px;
+  padding: 0;
+  border: 0;
+}
+
+.profile__card b {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1275px) {
+  .profile {
+    min-height: 700px;
+  }
+  .profile__content {
+    width: 900x;
+  }
+  .profile__name {
+    font-size: 40px;
+  }
+  .profile__paragraph {
+    font-size: 35px;
+  }
+  .profile__appointment-button {
+    height: 45px;
+    width: 195px;
+  }
+  .profile__appointment {
+    width: 900px;
+  }
+  .profile__card {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile {
+    min-height: 750px;
+  }
+  .profile__content {
+    width: 500px;
+  }
+  .profile__name {
+    font-size: 30px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .profile__paragraph {
+    font-size: 25px;
+  }
+  .profile__appointment-button {
+    height: 40px;
+    width: 190px;
+    font-size: 18px;
+    margin-left: 25px;
+  }
+  .profile__appointment {
+    height: 500px;
+    width: 500px;
+  }
+  .profile__card {
+    height: 110px;
+    border-radius: 15px;
+    font-size: 15px;
+    align-items: center;
+  }
+  .profile__card p {
+    margin: 0 0 0 20px;
+    padding: 0;
+    border: 0;
+  }
+}
+@media screen and (max-width: 510px) {
+  .profile__name {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    width: 260px;
+    text-align: center;
+  }
+  .profile__paragraph {
+    font-size: 15px;
+  }
+  .profile__appointment-button {
+    height: 25px;
+    width: 130px;
+    font-size: 15px;
+    margin-left: 13px;
+  }
+
+  .profile__text {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 15px;
+    width: 260px;
+    text-align: center;
+  }
+
+  .profile__appointment {
+    width: 260px;
+  }
+  .profile__card {
+    height: 135px;
+    border-radius: 15px;
+    font-size: 13px;
+    align-items: center;
+  }
+  .profile__card p {
+    margin: 0 0 0 12px;
+  }
+}

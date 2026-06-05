@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/Lora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/Cabin_Condensed-Regular.ttf") format("truetype");
+}
