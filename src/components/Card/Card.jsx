@@ -3,7 +3,7 @@ import { useState } from "react";
 function Card(props) {
   const { data } = props;
   const handleDownLoadPDF = () => {
-    const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:4000"; //URL del servidor
+    const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:4000"; //URL del del pueto del backend
     const token = localStorage.getItem("token");
     //este método hace la solicitud a la API automáticamente con la url, en este caso para generar un PDF para cada cita
     window.open(
