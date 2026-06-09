@@ -68,7 +68,7 @@ class Api {
 }
 
 export const api = new Api({
-  baseURL: `http://localhost:4000`,
+  baseURL: import.meta.env.VITE_API_URL || `http://localhost:4000`,
   headers: {
     "Content-Type": "application/json",
   },
