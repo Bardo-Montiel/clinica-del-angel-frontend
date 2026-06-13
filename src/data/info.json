@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sala",
+    "title": "Salas de Hospitalización",
+    "description": "Salas de hospitalización comodas para pacientes y visitas."
+  },
+  {
+    "id": "quirofano",
+    "title": "Quirófano",
+    "description": "Equipado con tecnología de vanguardia y bajo estrictos estándares de esterilización."
+  },
+  {
+    "id": "instrumental",
+    "title": "Instrumental",
+    "description": "Contamos con instrumental hospitalario especializado y de alta precesión, para garantizar el éxito y seguridad de cada intervención."
+  }
+]

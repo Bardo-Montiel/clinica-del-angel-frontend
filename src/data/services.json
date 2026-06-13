@@ -1,0 +1,56 @@
+[
+  {
+    "id": "trauma",
+    "title": "Traumatología y Ortopédia",
+    "intro": "Cuidado experto de huesos, articulaciones y sistema músculo-esquelético.",
+    "image": "traumaImage",
+    "class": "ortopedia-y-traumatología",
+    "icon": "BoneIcon",
+    "description": "Nos enfocamos en la prevención, diagnóstico y tratamiento de las lesiones y enfermedades que afectan al sistema musculoesquelético, incluyendo huesos, articulaciones, ligamentos, tendones y músculos. Ofrecemos atención integral para resolver desde fracturas, esguinces y luxaciones por accidentes o actividad deportiva, hasta problemas crónicos y degenerativos como la osteoartritis, dolor de espalda, hernias de disco y deformidades óseas. Mediante evaluaciones precisas, intervenciones quirúrgicas correctivas y tratamientos ortopédicos personalizados, devolvemos la movilidad y aliviamos el dolor para mejorar la calidad de vida de nuestros pacientes."
+  },
+  {
+    "id": "heridas",
+    "title": "Clínica de heridas y Estomas",
+    "intro": "Tratamiento especializado para heridas crónicas, de difícil cicatrización, y pacientes ostomizados.",
+    "image": "heridasImage",
+    "class": "clinica-de-heridas",
+    "icon": "HeartPulse",
+    "description": "Servicio especializado y avanzado dedicado al cuidado integral, manejo y cicatrización de lesiones complejas en la piel, así como a la atención y asesoría de pacientes con derivaciones intestinales o urinarias (estomas). Nos encargamos del tratamiento de heridas crónicas que no sanan fácilmente, tales como úlceras por presión, úlceras varicosas o arteriales, quemaduras y pie diabético, utilizando apósitos de alta tecnología y terapias innovadoras. Asimismo, brindamos educación y soporte especializado a pacientes ostomizados y sus familias, asegurando el cuidado correcto de la piel periestomal, previniendo complicaciones y ayudándoles a recuperar su independencia en el día a día."
+  },
+  {
+    "id": "fisio",
+    "title": "Fisioterapia",
+    "intro": "Rehabilitación física personalizada para recuperar tu movilidad.",
+    "image": "fisioterapiaImage",
+    "class": "fisioterapia",
+    "icon": "Accessibility",
+    "description": "Nos centramos en la rehabilitación física, la restauración del movimiento y la función corporal cuando el paciente ha sido afectado por una lesión, enfermedad, cirugía o discapacidad. A través de un plan terapéutico personalizado que combina técnicas manuales, ejercicios específicos y el uso de agentes físicos (como calor, frío, electroterapia y ultrasonido), tratamos contracturas, lesiones deportivas, rehabilitación postquirúrgica, problemas de postura y secuelas neurológicas. Nuestro objetivo es reducir el dolor, devolver la fuerza y la flexibilidad, y guiar al paciente en un proceso de recuperación seguro y efectivo."
+  },
+  {
+    "id": "cirugia",
+    "title": "Cirugía General",
+    "intro": "Procedimientos quirúrgicos seguros realizados por expertos.",
+    "image": "cirugiaImage",
+    "class": "cirugia",
+    "icon": "Scissors",
+    "description": "Abarcamos el diagnóstico, manejo preoperatorio, operación y cuidado postoperatorio de los pacientes que requieren intervenciones quirúrgicas en el abdomen, el aparato digestivo, el sistema endocrino y la pared abdominal. Estamos capacitados para resolver de manera oportuna y con altos estándares de seguridad patologías comunes y complejas, tales como apendicitis aguda, cálculos en la vesícula biliar, hernias, así como la extirpación de tumores benignos o quistes en tejidos blandos. Contamos con la infraestructura para realizar procedimientos quirúrgicos programados y de urgencia, priorizando técnicas mínimamente invasivas para una recuperación más rápida."
+  },
+  {
+    "id": "pediatria",
+    "title": "Pediatría",
+    "intro": "Atención médica integral y afectuosa para los más pequeños.",
+    "image": "pediatriaImage",
+    "class": "pediatria",
+    "icon": "BabyIcon",
+    "description": "Nos dedicamos a la atención integral de la salud de los pacientes desde el momento de su nacimiento hasta la adolescencia. Nuestro servicio no solo se enfoca en el diagnóstico y tratamiento de las enfermedades infantiles comunes y estacionales (como infecciones respiratorias, gastrointestinales o alergias), sino también en la medicina preventiva. Llevamos un control riguroso del crecimiento y desarrollo del niño, el seguimiento del esquema de vacunación, la orientación nutricional y la detección oportuna de anomalías en el desarrollo psicomotor, asegurando un acompañamiento médico cálido y profesional en cada etapa de la infancia."
+  },
+  {
+    "id": "otorrino",
+    "title": "Otorrinolaringología",
+    "intro": "Especialistas en salud de oídos, nariz y garganta.",
+    "image": "otorrinoImage",
+    "class": "otorrinolaringologia",
+    "icon": "Stethoscope",
+    "description": "Nos encargamos de la prevención, diagnóstico y tratamiento de los trastornos que afectan al oído, la nariz, la garganta y las estructuras relacionadas de la cabeza y el cuello. Atendemos problemas frecuentes como la pérdida auditiva, otitis, sinusitis crónica, rinitis alérgica, desviaciones del tabique nasal, trastornos de la voz, amigdalitis y problemas de vértigo o equilibrio. Mediante el uso de equipos de diagnóstico avanzados y procedimientos médicos o quirúrgicos precisos, resolvemos afecciones que impactan directamente en sentidos tan vitales como el oído, el olfato y el gusto, así como en la respiración y la fonación."
+  }
+]

@@ -1,0 +1,294 @@
+.service {
+  height: 325px;
+  width: 400px;
+  background-color: #005f73;
+  border-radius: 40px;
+  color: #f0e9df;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.service__corner {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #0294b1;
+  position: absolute;
+  left: 300px;
+  top: -60px;
+  transition: all 0.4s ease;
+}
+
+.service:hover .service__corner {
+  transform: scale(1.45);
+}
+
+.service__content-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 35px;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  background-color: #0294b1;
+  transition: all 0.4s ease;
+}
+
+.service:hover .service__content-icon {
+  color: #005f73;
+  background-color: #f0e9df;
+  transform: scale(1.05);
+}
+
+.service__title {
+  margin-left: 35px;
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+
+.service__intro {
+  margin-left: 35px;
+  width: 315px;
+  font-size: 19px;
+  margin-top: 0;
+}
+
+.service__link {
+  color: #f0e9df;
+  margin-left: 35px;
+  font-size: 17px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.service__link-icon {
+  transition: all 0.5s ease;
+}
+
+.service:hover .service__link .service__link-icon {
+  transform: translate(10px);
+}
+
+.ortopedia-y-traumatología {
+  grid-area: "trauma";
+}
+
+.clinica-de-heridas {
+  grid-area: "heridas";
+}
+
+.fisioterapia {
+  grid-area: "fisioterapia";
+}
+
+.service__popup {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  color: #f0e9df;
+  font-family: "Lora", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__popup-container {
+  background-color: #005f73;
+  width: 1200px;
+  height: 600px;
+  border-radius: 30px;
+  border: 5px solid #faebd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service__popup-article {
+  height: 550px;
+  width: 500px;
+  background-color: #273e68;
+  margin: 0 25px 0 25px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup__image-content {
+  overflow: hidden;
+}
+
+.service__popup-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service__popup-title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.service__popup-description {
+  text-align: justify;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  font-size: 20px;
+  width: 450px;
+  margin-bottom: auto;
+}
+
+.service__popup-botton {
+  font-size: 25px;
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  border: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.service__popup-botton:hover {
+  background-color: #0286a0;
+  color: #f0e9df;
+}
+
+@media screen and (max-width: 1275px) {
+  .service__popup-container {
+    width: 890px;
+    height: 600px;
+  }
+  .service__popup-article {
+    height: 550px;
+    width: 400px;
+  }
+  .service__popup-title {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .service__popup-description {
+    font-size: 17px;
+    width: 350px;
+  }
+  .service__popup-botton {
+    font-size: 22px;
+    width: 300px;
+    height: 37px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .service__popup-container {
+    width: 500px;
+    height: 580px;
+    border-radius: 30px;
+    flex-direction: column;
+  }
+  .service__popup-article {
+    height: 270px;
+    width: 450px;
+    margin: auto;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__popup-title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .service__popup-description {
+    word-spacing: 0;
+    font-size: 13px;
+    width: 420px;
+    margin-top: 5px;
+    margin-bottom: auto;
+  }
+  .service__popup-botton {
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .service {
+    height: 350px;
+    width: 260px;
+    border-radius: 40px;
+  }
+  .service__corner {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    left: 150px;
+  }
+  .service__content-icon {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .service__title {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .service__intro {
+    margin-left: 25px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .service__popup-container {
+    width: 260px;
+    height: 580px;
+    border-radius: 30px;
+    flex-direction: column;
+  }
+  .service__popup-container > .service__popup-article:first-child {
+    height: 150px;
+  }
+  .service__popup-article {
+    height: 400px;
+    width: 200px;
+  }
+  .service__popup-title {
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+  }
+
+  .service__popup-description {
+    font-size: 11.5px;
+    width: 190px;
+    margin-top: 5px;
+    margin-bottom: auto;
+  }
+  .service__popup-botton {
+    font-size: 13px;
+    width: 120px;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+}
